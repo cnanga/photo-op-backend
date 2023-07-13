@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testapp-dev-152412-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637851458235:role/amplify-testapp-dev-152412-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637851458235:role/amplify-testapp-dev-152412-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-testapp-dev-152412-deployment",
+      "UnauthRoleName": "amplify-testapp-dev-152412-unauthRole",
+      "StackName": "amplify-testapp-dev-152412",
+      "StackId": "arn:aws:cloudformation:us-west-2:637851458235:stack/amplify-testapp-dev-152412/105adbb0-edef-11ed-8127-0687e8935407",
+      "AmplifyAppId": "d3cw2hiudnezw",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-152412-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "testappc305ec6cc305ec6c": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "testappc305ec6cc305ec6cPostConfirmation": {
+          "GROUP": "MediaCreators",
+          "deploymentBucketName": "amplify-testapp-dev-152412-deployment",
+          "s3Key": "amplify-builds/testappc305ec6cc305ec6cPostConfirmation-67557856547247784f67-build.zip"
+        },
+        "S3Trigger64740aed": {
+          "deploymentBucketName": "amplify-testapp-dev-152412-deployment",
+          "s3Key": "amplify-builds/S3Trigger64740aed-4164744332524f55596a-build.zip"
+        }
+      },
+      "api": {
+        "testapp": {}
+      },
+      "storage": {
+        "s3b12587a5": {}
+      }
+    }
+  }
+}

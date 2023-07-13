@@ -1,0 +1,19 @@
+{
+  "resourceName": "s3b12587a5",
+  "policyUUID": "b12587a5",
+  "bucketName": "testappc6896f99d59440f19008a7b44a981dd5",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [],
+  "triggerFunction": "S3Trigger64740aed",
+  "groupAccess": {
+    "MediaCreators": [
+      "CREATE_AND_UPDATE",
+      "READ",
+      "DELETE"
+    ],
+    "MediaBuyers": [
+      "READ"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "groupName": "MediaCreators",
+    "precedence": 1
+  },
+  {
+    "groupName": "MediaBuyers",
+    "precedence": 2
+  }
+]

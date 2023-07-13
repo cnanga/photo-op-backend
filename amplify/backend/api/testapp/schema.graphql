@@ -1,0 +1,8 @@
+type Media @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["MediaBuyers"], operations: [read]}]) {
+  id: ID!
+  description: String!
+  tags: String!
+  imageUrl: String
+  imageKey: String
+}
+ 
