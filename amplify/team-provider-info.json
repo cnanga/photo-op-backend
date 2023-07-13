@@ -35,5 +35,30 @@
         "s3b12587a5": {}
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testapp-prod-190929-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637851458235:role/amplify-testapp-prod-190929-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637851458235:role/amplify-testapp-prod-190929-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-testapp-prod-190929-deployment",
+      "UnauthRoleName": "amplify-testapp-prod-190929-unauthRole",
+      "StackName": "amplify-testapp-prod-190929",
+      "StackId": "arn:aws:cloudformation:us-west-2:637851458235:stack/amplify-testapp-prod-190929/4d8a54a0-2122-11ee-af03-0689a59afba9",
+      "AmplifyAppId": "d3cw2hiudnezw"
+    },
+    "categories": {
+      "auth": {
+        "testappc305ec6cc305ec6c": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "S3Trigger64740aed": {},
+        "testappc305ec6cc305ec6cPostConfirmation": {
+          "GROUP": "MediaCreators"
+        }
+      }
+    }
   }
 }
