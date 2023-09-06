@@ -96,39 +96,7 @@
     }
   },
   "parameters": {
-    "AMPLIFY_function_S3Trigger64740aed_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "S3Trigger64740aed"
-        }
-      ]
-    },
-    "AMPLIFY_function_S3Trigger64740aed_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "S3Trigger64740aed"
-        }
-      ]
-    },
     "AMPLIFY_function_testappc305ec6cc305ec6cPostConfirmation_GROUP": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "testappc305ec6cc305ec6cPostConfirmation"
-        }
-      ]
-    },
-    "AMPLIFY_function_testappc305ec6cc305ec6cPostConfirmation_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "testappc305ec6cc305ec6cPostConfirmation"
-        }
-      ]
-    },
-    "AMPLIFY_function_testappc305ec6cc305ec6cPostConfirmation_s3Key": {
       "usedBy": [
         {
           "category": "function",
